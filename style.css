@@ -9,18 +9,77 @@ body{
     justify-content: center;
     align-items: center;
 
-    background-color: #189be1;
+    background-color: #000000;
 
     padding: 20px;
 }
 
 .conteiner{
-
-    background-color: aliceblue;
+    text-align: center;
+    background-color: rgb(4, 168, 218);
     width: 100%;
     max-width: 650px;
     padding: 30px;
     border-radius: 25px;
-    color: black;
+
+}
+
+.conteiner h1{
+    text-align: center;
+    font-family: "Share Tech", sans-serif;
+    margin-bottom: 20px;
+    font-family: "Libre Caslon Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+button{
+    border: 2px solid rgb(93, 210, 214);
+    box-shadow: 0 0 0 3px rgb(5, 165, 130);
+    border-radius: 5px;
+    background-color: rgb(2, 98, 110);
+    color: rgb(3, 3, 3);
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "Share Tech", sans-serif;
+}
+
+button:hover{
+   transform: translateX(-3px);
+   box-shadow: 0 0 0 3px rgb(140, 83, 206);
+}
+
+h1{
+    color: rgb(116, 5, 5);
+}
+
+h3{
+    text-align: center;
+    color: rgb(168, 42, 25);
+}
+
+textarea{
+    border-radius: 10px;
+    box-shadow: 0 0 0 3px rgb(3, 156, 110);
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Share Tech", sans-serif;
+    padding: 10px;
+    margin-top: 10px;
+    width: 90%;
+}   
+
+#resultado{
+    padding: 10px;
+    margin-top: 10px;
+    border-top: 2px solid rgb(255, 255, 255);
+    animation: aparecer 0.9s ease;
 
 }
