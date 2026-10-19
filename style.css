@@ -8,40 +8,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0542b4;
+
+    background-color: #189be1;
+
     padding: 20px;
-    font-family: "Cinzel", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
 }
-
-h1{
-    color: rgb(223, 217, 204);
-    font-family: "Chelsea Market", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
-
-h1{
-    font-family: "Chelsea Market", system-ui;
-    font-weight: 400;
-    font-style: normal;
-
-}
-
 
 .conteiner{
-    background-color: rgb(223, 217, 204);
+
+    background-color: aliceblue;
     width: 100%;
     max-width: 650px;
     padding: 30px;
     border-radius: 25px;
 
-}
-
-.fundo{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
 }
